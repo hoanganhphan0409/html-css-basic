@@ -1,0 +1,33 @@
+body {
+  background-color: aqua;
+  margin: 0;
+}
+
+.nav-item {
+  /* background-color: blue; */
+  margin: 0 8px;
+  color: #fff;
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.nav-list {
+  margin: auto 8px;
+  list-style: none;
+}
+
+.nav {
+  display: flex;
+  background-color: orangered;
+  min-height: 42px;
+  justify-content: space-between;
+}
+
+.form-input{
+  display: flex;
+  justify-content: space-between;
+  /* min-height: 42px; */
+}
+.input{
+  flex: 1;
+}
